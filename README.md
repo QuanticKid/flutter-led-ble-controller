@@ -50,8 +50,7 @@ designed for this project:
 | `0xF3 H M`      | Set OFF time (hour, minute)                |
 | `0xF4 mask`     | Set active weekdays (bitmask)              |
 
-The controller also notifies the app back: `0xD1` when motion is detected, `0xD2`
-when it gets dark, and the current RGB values after a color change.
+The controller notifies the app back with the current RGB values after each color change.
 
 ## The app
 
